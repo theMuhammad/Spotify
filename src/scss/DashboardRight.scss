@@ -1,0 +1,72 @@
+.dashboard_right {
+  width: 265px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  .friend_add {
+    padding: 29px 20px;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    .friend_add_t {
+      display: flex;
+      h4 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 25.3px;
+        letter-spacing: 0.01em;
+        color: #fff;
+      }
+      .icons {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 17px;
+        img {
+          cursor: pointer;
+        }
+      }
+      .add {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+  .lorem {
+    padding: 30px 20px;
+    p {
+      font-size: 13px;
+      font-weight: 450;
+      line-height: 24px;
+      text-align: left;
+      color: #fff;
+    }
+  }
+  .user_loading {
+    padding: 0px 20px;
+    img {
+      margin-bottom: 20px;
+      width: 159px;
+      height: 52px;
+    }
+  }
+  .setting {
+    width: 233px;
+    height: 62px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.77px;
+    letter-spacing: 0.14em;
+    text-align: center;
+    border: none;
+    gap: 0px;
+    border-radius: 40px 40px 40px 40px;
+    opacity: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .setting:hover {
+    opacity: 0.8;
+    transition: 0.4s ease-in-out;
+  }
+}

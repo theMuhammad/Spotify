@@ -1,0 +1,21 @@
+.music_control {
+  position: fixed;
+  bottom: 0px;
+  background-color: rgba(24, 24, 24, 1);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+  .react_player {
+    display: none;
+    display: "inline-block";
+    color: "black";
+    background-color: "black";
+    color: blue;
+    border-radius:30px ;
+  }
+  .music_pleyer {
+    display: flex;
+  }
+}

@@ -1,0 +1,116 @@
+.homepage {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 18, 18, 1) 40%,
+    rgba(51, 51, 163, 1) 60%
+  );
+  width: 66%;
+  padding-left: 20px;
+  padding-right: 20px;
+  .header {
+    max-height: 100vh;
+    overflow-y: auto;
+    .actions {
+      width: 64%;
+      position: fixed;
+      top: 0px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: rgba(51, 51, 163, 1);
+      .imgs {
+        justify-content: space-between;
+        display: flex;
+        width: 100px;
+        img {
+          cursor: pointer;
+        }
+      }
+      .title {
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 49.33px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 20px;
+        margin-bottom: 25px;
+      }
+    }
+    .home_playlist {
+      margin-top: 155px;
+
+      .playlists {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        .playlist {
+          display: flex;
+          align-items: center;
+          width: 460px;
+          background-color: rgba(255, 255, 255, 0.2);
+          border-radius: 10px;
+          cursor: pointer;
+          h4 {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 25.3px;
+            letter-spacing: 0.01em;
+            color: rgba(255, 255, 255, 1);
+            margin-left: 20px;
+          }
+        }
+        .playlist_img {
+          width: 82px;
+          height: 82px;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+        }
+      }
+    }
+    .you_top_mixes {
+      margin-bottom: 80px;
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37.95px;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      .topmix {
+        display: flex;
+        justify-content: space-between;
+        .mix {
+          width: 224px;
+          height: 324px;
+          display: flex;
+          flex-direction: column;
+          background-color: rgb(39, 39, 39);
+          border-radius: 8px;
+          cursor: pointer;
+          //   align-items: center;
+          .mix_img {
+            width: 182px;
+            height: 182px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-left: 20px;
+          }
+          .mix_name {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 25.3px;
+            letter-spacing: 0.03em;
+            padding: 25px 20px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .header::-webkit-scrollbar {
+    width: 10px;
+  }
+}

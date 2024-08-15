@@ -1,0 +1,200 @@
+.playlist_detelis {
+  width: 66%;
+  max-height: 100vh;
+  overflow-y: auto;
+  .actions_playlist {
+    padding: 0px 40px;
+    position: fixed;
+    width: 65.88%;
+    display: flex;
+    height: 80px;
+    background-color: rgba(221, 246, 40, 1);
+    .imgs {
+      display: flex;
+      width: 100px;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+      }
+    }
+  }
+  .playlist_info {
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-top: 28px;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(
+      0deg,
+      rgba(18, 18, 18, 1) 20%,
+      rgb(213, 236, 39) 80%
+    );
+    .playlist_img {
+      img {
+        width: 297px;
+        height: 297px;
+        box-shadow: rgba(0, 0, 0, 0.25);
+      }
+    }
+    .playlist_text {
+      margin-left: 32px;
+      .public {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.24px;
+        letter-spacing: -0.02em;
+        color: #fff;
+      }
+      h1 {
+        font-size: 122px;
+        font-weight: 900;
+        line-height: 154.33px;
+        letter-spacing: -0.06em;
+        text-align: left;
+        color: #eaeaea;
+      }
+      .dec {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.24px;
+        letter-spacing: -0.02em;
+        color: #e8e8e8;
+        margin-bottom: 3px;
+      }
+    }
+  }
+  .bg-black {
+    background-color: rgba(18, 18, 18, 1);
+    padding: 10px 40px;
+    margin-bottom: 70px;
+    .music_actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .actions_m {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        img {
+          cursor: pointer;
+        }
+      }
+      .pusk {
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+    .tracks {
+      .index {
+        font-size: 22px;
+        width: 40px;
+        height: 20px;
+        .box1,
+        .box2 {
+          padding: 6px 0px;
+          text-align: center;
+        }
+
+        .box1 {
+          display: block;
+        }
+
+        .box2 {
+          width: 100%;
+          display: none;
+          img {
+            width: 19px;
+            height: 19px;
+            cursor: pointer;
+          }
+        }
+
+        .wrapper {
+          width: auto;
+          display: inline-block;
+        }
+
+        .wrapper:hover .box1 {
+          display: none;
+        }
+
+        .wrapper:hover .box2 {
+          display: block;
+          cursor: pointer;
+        }
+      }
+      .name {
+        width: 300px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        .art_name {
+          color: #ffffff8b;
+        }
+      }
+      .albom_name {
+        width: 100px;
+        font-size: 14px;
+      }
+      .like {
+        width: 200px;
+      }
+      .reels {
+        width: 200px;
+        font-size: 14px;
+      }
+      .duration_ms {
+        width: 100px;
+        font-size: 14px;
+      }
+      .like_td {
+        width: 150px;
+        display: flex;
+        margin-left: 50px;
+        cursor: pointer;
+      }
+      .active {
+        color: rgba(101, 211, 110, 1) !important;
+      }
+      .like_td:hover {
+        color: rgba(101, 211, 110, 1);
+        transition: 0.3s;
+      }
+      thead {
+        tr {
+          td {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20.24px;
+            letter-spacing: -0.02em;
+            color: #fff;
+          }
+        }
+      }
+      tbody {
+        .tr {
+          align-items: center !important;
+          td {
+            margin-bottom: 20px !important;
+            color: #e8e8e8;
+            img {
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
+.playlist_detelis::-webkit-scrollbar {
+  width: 0px;
+}

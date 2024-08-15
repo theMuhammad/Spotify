@@ -1,0 +1,90 @@
+.dashboard_Left {
+  width: 260px;
+  background-color: black;
+  .active {
+    color: rgba(255, 255, 255, 1) !important;
+  }
+  .dashbord_activs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .home {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      width: 222px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      p {
+        font-weight: 600;
+        margin-left: 20px;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+    .search {
+      margin-bottom: 20px;
+      width: 222px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      p {
+        margin-left: 20px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+    .library {
+      margin-bottom: 49px;
+      width: 222px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      p {
+        margin-left: 20px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+  .dashbord_likes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .create_playlist {
+      display: flex;
+      align-items: center;
+      width: 222px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      p {
+        margin-left: 20px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+  .line {
+    width: 215px;
+    height: 2px;
+    background-color: rgba(40, 40, 40, 1);
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .dashbord_music_names {
+    ul {
+      margin-left: 20px;
+      max-height: 273px;
+      overflow-y: auto;
+      li {
+        list-style: none;
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 400;
+        margin-bottom: 18px;
+        cursor: pointer;
+      }
+    }
+    ul::-webkit-scrollbar {
+      width: 4px;
+    }
+  }
+}
